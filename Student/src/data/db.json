@@ -1,0 +1,244 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@example.com",
+      "age": 21,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ananya Gupta",
+      "email": "ananya.gupta@example.com",
+      "age": 22,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Vikram Rao",
+      "email": "vikram.rao@example.com",
+      "age": 23,
+      "course": "MERN",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Divya Reddy",
+      "email": "divya.reddy@example.com",
+      "age": 20,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Arun Kumar",
+      "email": "arun.kumar@example.com",
+      "age": 24,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Meera Nair",
+      "email": "meera.nair@example.com",
+      "age": 22,
+      "course": "Full Stack",
+      "image": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Harish Patel",
+      "email": "harish.patel@example.com",
+      "age": 23,
+      "course": "MERN",
+      "image": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sneha Menon",
+      "email": "sneha.menon@example.com",
+      "age": 21,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Karthik Iyer",
+      "email": "karthik.iyer@example.com",
+      "age": 25,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Aishwarya Das",
+      "email": "aishwarya.das@example.com",
+      "age": 20,
+      "course": "MERN",
+      "image": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Rohit Singh",
+      "email": "rohit.singh@example.com",
+      "age": 22,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Priya Kaur",
+      "email": "priya.kaur@example.com",
+      "age": 23,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Naveen Das",
+      "email": "naveen.das@example.com",
+      "age": 24,
+      "course": "Full Stack",
+      "image": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Harini V",
+      "email": "harini.v@example.com",
+      "age": 21,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Akash Mehta",
+      "email": "akash.mehta@example.com",
+      "age": 22,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Ritika Jain",
+      "email": "ritika.jain@example.com",
+      "age": 20,
+      "course": "MERN",
+      "image": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Sanjay Pillai",
+      "email": "sanjay.pillai@example.com",
+      "age": 25,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Kavya M",
+      "email": "kavya.m@example.com",
+      "age": 22,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Vishal T",
+      "email": "vishal.t@example.com",
+      "age": 23,
+      "course": "Full Stack",
+      "image": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Sowmya R",
+      "email": "sowmya.r@example.com",
+      "age": 21,
+      "course": "MERN",
+      "image": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Girish S",
+      "email": "girish.s@example.com",
+      "age": 24,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Neha Kulkarni",
+      "email": "neha.kulkarni@example.com",
+      "age": 22,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Ramesh K",
+      "email": "ramesh.k@example.com",
+      "age": 23,
+      "course": "MERN",
+      "image": "https://randomuser.me/api/portraits/men/23.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Shreya Kapoor",
+      "email": "shreya.kapoor@example.com",
+      "age": 21,
+      "course": "Full Stack",
+      "image": "https://randomuser.me/api/portraits/women/24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Aditya Rao",
+      "email": "aditya.rao@example.com",
+      "age": 25,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Lavanya S",
+      "email": "lavanya.s@example.com",
+      "age": 20,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/women/26.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Sahil Khan",
+      "email": "sahil.khan@example.com",
+      "age": 22,
+      "course": "MERN",
+      "image": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Bhavya Reddy",
+      "email": "bhavya.reddy@example.com",
+      "age": 23,
+      "course": "Full Stack",
+      "image": "https://randomuser.me/api/portraits/women/28.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Manoj Kumar",
+      "email": "manoj.kumar@example.com",
+      "age": 24,
+      "course": "Java",
+      "image": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Simran Ahuja",
+      "email": "simran.ahuja@example.com",
+      "age": 22,
+      "course": "Python",
+      "image": "https://randomuser.me/api/portraits/women/30.jpg"
+    }
+  ]
+}

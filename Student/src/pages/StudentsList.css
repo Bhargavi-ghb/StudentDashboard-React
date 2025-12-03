@@ -1,0 +1,123 @@
+.students-container {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.students-container h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #444;
+}
+
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.student-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.student-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.2);
+}
+
+
+.student-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #88d3ce;
+}
+
+
+.student-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+}
+
+.student-card p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+
+.card-buttons a,
+.card-buttons button {
+  padding: 8px 14px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+
+.edit-btn {
+  background-color: #6e7ff3;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #5565d8;
+}
+
+.delete-btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #ff4747;
+}
+
+
+.view-btn {
+  background-color: #88d3ce;
+  color: #222;
+}
+
+.view-btn:hover {
+  background-color: #63c2bb;
+}
+
+
+@media (max-width: 992px) {
+  .students-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .students-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

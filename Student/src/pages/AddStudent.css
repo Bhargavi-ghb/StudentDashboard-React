@@ -1,0 +1,118 @@
+.add-container {
+  width: 100%;
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.add-container h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  text-align: left;
+}
+
+
+.add-form div {
+  width: 100%;
+}
+
+
+.add-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #333;
+}
+
+
+.add-form input {
+  padding: 12px 14px;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #fafafa;
+  transition: border 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.add-form input:focus {
+  border-color: #007bff;
+  background: #fff;
+  outline: none;
+  box-shadow: 0px 0px 6px rgba(0, 123, 255, 0.35);
+}
+
+
+.error-box {
+  background: #ffe5e5;
+  padding: 10px;
+  border-left: 4px solid #ff4b4b;
+  color: #b00000;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+.submit-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #005cbf;
+}
+
+/* Cancel Button */
+.cancel-btn {
+  display: block;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  color: #444;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background: #dcdcdc;
+}
+
+@media (max-width: 480px) {
+  .add-container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .add-container h2 {
+    font-size: 22px;
+  }
+
+  .add-form input {
+    font-size: 14px;
+  }
+}
